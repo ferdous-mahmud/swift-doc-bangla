@@ -59,9 +59,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'সুইফট ডকুমেন্টেশন বাংলা',
+        title: 'সুইফট ডক বাংলা',
         logo: {
-          alt: 'সুইফট ডকুমেন্টেশন বাংলা',
+          alt: 'সুইফট ডক বাংলা',
           src: 'img/logo.svg',
         },
         items: [
@@ -104,7 +104,11 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/ferdous_19',
+                href: 'https://twitter.com/ferdous1919',
+              },
+              {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/ferdous19/',
               },
             ],
           },
@@ -122,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ferdous Mahmud Akash`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ferdous Mahmud Akash. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
