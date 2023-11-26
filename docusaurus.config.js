@@ -12,7 +12,7 @@ const config = {
   tagline: 'বাংলায় শিখি সুইফট',
   favicon: 'img/favicon.ico',
   url: 'https://github.com',
-  baseUrl: '/swift-doc-bangla/',
+  baseUrl: '/swift-doc-bangla',
   organizationName: 'ferdous-mahmud', // Usually your GitHub org/user name.
   projectName: 'swift-doc-bangla', // Usually your repo name.
   deploymentBranch: 'gh-pages',
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ferdous-mahmud/swift-doc-bangla/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ferdous-mahmud/swift-doc-bangla/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -59,9 +59,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'সুইফট ডকুমেন্টেশন বাংলা',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'সুইফট ডকুমেন্টেশন বাংলা',
           src: 'img/logo.svg',
         },
         items: [
@@ -73,7 +73,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ferdous-mahmud/swift-doc-bangla',
             label: 'GitHub',
             position: 'right',
           },
@@ -95,16 +95,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Youtube',
+                href: 'https://youtube.com/@ferdous19?si=cjcJwWuTRIP1kcpU',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/ferdous1919',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/ferdous_19',
               },
             ],
           },
@@ -117,12 +117,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ferdous-mahmud/swift-doc-bangla',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ferdous Mahmud Akash`,
       },
       prism: {
         theme: prismThemes.github,
