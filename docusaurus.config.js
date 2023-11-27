@@ -81,6 +81,10 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
+              {
+                label: 'Blog',
+                to: 'https://ferdousmahmud.co/blog',
+              },
             ],
           },
           {
