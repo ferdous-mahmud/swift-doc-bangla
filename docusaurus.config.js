@@ -12,7 +12,7 @@ const config = {
   tagline: 'বাংলায় শিখি সুইফট',
   favicon: 'img/favicon.ico',
   url: 'https://github.com',
-  baseUrl: '/swift-doc-bangla/',
+  baseUrl: '/',
   organizationName: 'ferdous-mahmud', // Usually your GitHub org/user name.
   projectName: 'swift-doc-bangla', // Usually your repo name.
   deploymentBranch: 'gh-pages',
