@@ -71,7 +71,6 @@ const config = {
             position: 'left',
             label: 'টিউটোরিয়াল',
           },
-          {to: '/blog', label: 'ব্লগ', position: 'left'},
           {
             href: 'https://github.com/ferdous-mahmud/swift-doc-bangla',
             label: 'GitHub',
