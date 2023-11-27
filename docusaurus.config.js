@@ -69,9 +69,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'টিউটোরিয়াল',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'ব্লগ', position: 'left'},
           {
             href: 'https://github.com/ferdous-mahmud/swift-doc-bangla',
             label: 'GitHub',
