@@ -4,44 +4,34 @@ sidebar_position: 1
 
 # কিছু কথা
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Swift Doc bangla is an unofficial community driven documentation for swift
 
 ## Getting Started
 
-Get started by **creating a new site**.
+### Installation on Mac
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Installation on Linux
 
-### What you'll need
+### Installation on Windows
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## About Swift Programming
 
-## Generate a new site
+- **Open Source** - Swift source code and development builds are available for everyone.
 
-Generate a new Docusaurus site using the **classic template**.
+- **Fast and Powerful** - Swift programming is fast and powerful. Also, the source code is concise yet expressive.
 
-The classic template will automatically be added to your project after you run the command:
+- **Interoperability** - Swift code can be used along with the existing Objective-C projects.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Why Learn Swift?
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- It is used for creating applications for iOS, macOS, watchOS, and so on.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- It is also used in server applications that provide safety and high performance.
 
-## Start your site
+## How to learn Swift?
 
-Run the development server:
+- Swift tutorial from Swift Doc Bangla - We provide step by step Swift tutorials. [Get started with Swift](/docs/category/swift-introduction).
 
-```bash
-cd my-website
-npm run start
-```
+- Official Swift tutorial - You can learn Swift by following the official documentation. To learn more, visit the official [Swift tutorial documentation](https://swift.org/documentation/).
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Practice- The only way you can learn programming is by practicing and writing a lot of code.
