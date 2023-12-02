@@ -30,7 +30,7 @@ Swift Doc bangla is an unofficial community driven documentation for swift
 
 ## How to learn Swift?
 
-- Swift tutorial from Swift Doc Bangla - We provide step by step Swift tutorials. [Get started with Swift](/docs/category/swift-introduction).
+- Swift tutorial from Swift Doc Bangla - We provide step by step Swift tutorials. [Get started with Swift](/).
 
 - Official Swift tutorial - You can learn Swift by following the official documentation. To learn more, visit the official [Swift tutorial documentation](https://swift.org/documentation/).
 
