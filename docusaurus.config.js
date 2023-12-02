@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Swift Doc Bangla',
+  title: 'সুইফট ডক বাংলা',
   tagline: 'বাংলায় শিখি সুইফট',
   favicon: 'img/favicon.ico',
   url: 'https://github.com',
