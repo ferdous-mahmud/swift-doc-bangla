@@ -66,7 +66,7 @@ const config = {
           },
           {
             href: 'https://github.com/ferdous-mahmud/swift-doc-bangla',
-            label: 'GitHub',
+            label: 'গিটহাব',
             position: 'right',
           },
         ],
