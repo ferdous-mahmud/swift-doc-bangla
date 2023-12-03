@@ -38,6 +38,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ferdous-mahmud/swift-doc-bangla/tree/main/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true
         },
         theme: {
           customCss: './src/css/custom.css',
