@@ -38,7 +38,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ferdous-mahmud/swift-doc-bangla/tree/main/',
-          showLastUpdateAuthor: true,
           showLastUpdateTime: true
         },
         theme: {
@@ -120,7 +119,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} সুইফট ডক বাংলা. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} সুইফট ডক বাংলা. All rights reserved. 🙂`,
       },
       prism: {
         theme: prismThemes.github,
