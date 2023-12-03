@@ -120,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ferdous Mahmud Akash. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} সুইফট ডক বাংলা. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

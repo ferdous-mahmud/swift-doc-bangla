@@ -14,7 +14,7 @@ sidebar_position: 1
 
 - **ইন্টারঅপারেবিলিটি** - সুইফট কোড এর সাথে অবজেক্টিভ-C, C++, C কোড ব্যবহার করা যায়। এটি সুইফট এর অন্যতম একটি ফিচার।
 
-# ইনস্টলেশন
+### ইনস্টলেশন
 
 উইন্ডোজ, ম্যাক এবং লিনাক্স সব অপারেটিং সিস্টেম এ সুইফট কোড কম্পাইল এবং রান করার সহজ সমাধান হতে পারে একটি VS Code এক্সটেনশন [এখান](https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang) থেকে আপনি এক্সটেনশন টি ডাউনলোড করে ইন্সটল করে নিতে পারেন।
 
@@ -30,7 +30,6 @@ sidebar_position: 1
 
 ```bash
 swift --version
-
 ```
 
 **আউটপুট:**
@@ -42,14 +41,12 @@ swift --version
 লিনাক্স সিস্টেমে সুইফট ইন্সটল করতে আমাদেরকে ডিপেন্ডেন্সি ইন্সটল > সুইফট ডাউনলোড > ফাইল এক্সট্রাকশন > এক্সট্রাক্টেড ফাইল মুভ করা সিস্টেম পাথ এনভিরমেন্ট ভ্যারিয়েবল এড করা। এই ধাপ গুলার মধ্য দিয়ে যেতে হবে। ধাপগুলো সহজ করার জন্য নিচের কমান্ড গুলো কপি পেস্ট করতে পারেন।
 
 ```bash
-
 sudo apt install clang libpython2.7 libpython2.7-dev
 wget https://swift.org/builds/swift-5.8-release/ubuntu2004/swift-5.8-RELEASE/swift-5.8-RELEASE-ubuntu20.04.tar.gz
 tar xzf swift-5.8-RELEASE-ubuntu20.04.tar.gz
 sudo mv swift-5.8-RELEASE-ubuntu20.04 /usr/share/swift
 echo "export PATH=/usr/share/swift/usr/bin:$PATH" >> ~/.zshrc
 source ~/.zshrc
-
 ```
 
 সবকিছু ঠিক থাকলে, `swift --version` কমান্ড দিয়ে নিচের মতো অউটপুট দেখতে পাবেন।
