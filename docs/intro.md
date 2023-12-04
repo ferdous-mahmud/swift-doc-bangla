@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # কিছু কথা
 
-সুইফট (Swift) অ্যাপলের তৈরি একটি মডার্ন হাইলি পারফরম্যান্স প্রোগ্রামিং ল্যাঙ্গুয়েজ। এটি মূলত এপল প্ল্যাটফর্মে অ্যাপস বানাতে ব্যবহৃত হয়।
+সুইফট (Swift) অ্যাপলের তৈরি একটি মডার্ন হাই পারফরম্যান্স প্রোগ্রামিং ল্যাঙ্গুয়েজ। এটি মূলত এপল প্ল্যাটফর্মে অ্যাপস বানাতে ব্যবহৃত হয়।
 
 - **অ্যাপ ডেভেলপমেন্ট** - অ্যাপল ইকোসিস্টেমে (iOS,MacOS,WatchOS, TVOS, VisionOS) অ্যাপ ডেভেলপমেন্টের সবথেকে জনপ্রিয় ল্যাঙ্গুয়েজ সুইফট।
 
@@ -22,7 +22,7 @@ sidebar_position: 1
 
 ### ম্যাক ইনস্টলেশন
 
-- **Xcode ইনস্টল:** সুইফট দিয়ে অ্যাপ ডেভেলপ করতে হলে, প্রথমে Xcode ইনস্টল করা প্রয়োজন। Xcode হলো Apple-এর Integrated Development Environment (IDE)। এটি অ্যাপস ডেভেলপমেন্টএর জন্য জন্য প্রয়োজনীয় টুল একসাথে ইন্সটল করে।
+- **Xcode ইনস্টল:** সুইফট ইন্সটল করতে হলে প্রথমে Xcode ইনস্টল করতে হবে। Xcode হলো Apple-এর Integrated Development Environment (IDE)। এটি অ্যাপস ডেভেলপমেন্টএর জন্য সকল প্রয়োজনীয় টুল একসাথে ইন্সটল করে।
 
 - **Mac App Store থেকে Xcode ডাউনলোড:** আপনি Mac App Store এ গিয়ে Xcode অ্যাপটি সার্চ করে ডাউনলোড করতে পারেন। এর জন্য আপনার Apple ID অ্যাকাউন্ট থাকা আবশ্যক।
 
@@ -60,16 +60,37 @@ Target: x86_64-unknown-linux-gnu
 
 ### উইন্ডোজ ইনস্টলেশন
 
-## Why Learn Swift?
+উইন্ডোজ কম্পিউটারে সুইফট ইন্সটল করার জন্য আমরা উইন্ডোজ প্যাকেজ ম্যানেজার (WinGet) ব্যবহার করেতে পারি। সুইফট ইন্সটল করার জন্য প্রথমে ভিজুয়াল স্টুডিও কম্পোনেন্ট ইন্সটল করেত হবে নিচের কম্যান্ড দিয়ে।
 
-- It is used for creating applications for iOS, macOS, watchOS, and so on.
+```bash
+winget install --id Microsoft.VisualStudio.2022.Community --exact --force --custom "--add Microsoft.VisualStudio.Component.Windows11SDK.22000 --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
+```
 
-- It is also used in server applications that provide safety and high performance.
+ভিজুয়াল স্টুডিও কম্পোনেন্ট ইন্সটল হওয়ার পর সুইফট টুলচেন ইন্সটল করতে হবে।
 
-## How to learn Swift?
+```bash
+winget install --id Swift.Toolchain -e
+```
 
-- Swift tutorial from Swift Doc Bangla - We provide step by step Swift tutorials. [Get started with Swift](/docs/category/সূচনা).
+টুলচেন ইন্সটল হওয়ার পর আমরা `swift --version` কমান্ড দিয়ে নিচের মতো অউটপুট দেখতে পাবেন।
 
-- Official Swift tutorial - You can learn Swift by following the official documentation. To learn more, visit the official [Swift tutorial documentation](https://swift.org/documentation/).
+```
+Swift version 5.5.2 (swift-5.5.2-RELEASE)
+Target: x86_64-unknown-windows-msvc
+```
 
-- Practice- The only way you can learn programming is by practicing and writing a lot of code.
+এছাড়া [সুইফট ফর উইন্ডোজ](https://swiftforwindows.github.io/) হতে পারে উইন্ডোজে সুইফট রান করার একটি সহজ সমাধান।
+
+## কেন সুইফট শিখবো?
+
+- অ্যাপল ইকোসিস্টেমে অ্যাপ তৈরি করতে সুইফট অন্যতম প্রধান ল্যাঙ্গুয়েজ।
+
+- হাই পারফরম্যান্স ওয়েব অ্যাপ বানাতে সুইফট এর সাথে [Vapor](https://vapor.codes/) ব্যবহার করতে পারি।
+
+## কিভাবে সুইফট শিখবো?
+
+- বাংলাতে সুইফট শিখতে চাইলে, সুইফট ডক বাংলা দিয়ে [শুরু](/docs/category/সূচনা) করা যেতে পারে.
+
+- সুইফট অফিসিয়াল ডকুমেন্টেশন থেকে সুইফট এর খুঁটিনাটি সবথেকে ভালভাবে জানতে পারবেন। [সুইফট অফিসিয়াল ডকুমেন্টেশন](https://swift.org/documentation/).
+
+- **প্রাকটিস** - প্রাকটিস এর কোন বিকল্প হতে পারে না যেকোন প্রোগ্রামিং ল্যাঙ্গুয়েজ শেখার ক্ষেত্রেই। সুইফট দিয়ে প্রব্লেম সল্ভিং করে বা ছোট ছোট অ্যাপ বানিয়ে সুইফট প্রাকটিস করতে পারেন।

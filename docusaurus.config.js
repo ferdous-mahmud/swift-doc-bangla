@@ -76,50 +76,50 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'ডক',
             items: [
               {
-                label: 'Tutorial',
+                label: 'টিউটোরিয়াল',
                 to: '/docs/intro',
               },
               {
-                label: 'Blog',
+                label: 'ব্লগ',
                 to: 'https://ferdousmahmud.co/blog',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'কমিউনিটি',
             items: [
               {
-                label: 'Youtube',
+                label: 'ইউটিউব',
                 href: 'https://youtube.com/@ferdous19?si=cjcJwWuTRIP1kcpU',
               },
               {
-                label: 'Facebook',
+                label: 'ফেইসবুক',
                 href: 'https://www.facebook.com/ferdous1919',
               },
               {
-                label: 'Twitter',
+                label: 'টুইটার',
                 href: 'https://twitter.com/ferdous1919',
               },
               {
-                label: 'Linkedin',
+                label: 'লিংকডিন',
                 href: 'https://www.linkedin.com/in/ferdous19/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'আরও',
             items: [
               {
-                label: 'GitHub',
+                label: 'গিটহাব',
                 href: 'https://github.com/ferdous-mahmud/swift-doc-bangla',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} সুইফট ডক বাংলা. All rights reserved. 🙂`,
+        copyright: `কপিরাইট © ${new Date().getFullYear()} সুইফট ডক বাংলা`,
       },
       prism: {
         theme: prismThemes.github,
