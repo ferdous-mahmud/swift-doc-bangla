@@ -50,8 +50,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/swift-doc-bangla.jpg',
+      announcementBar: {
+        id: 'contribute',
+        content:
+          'সুইফট ডক বাংলা একটি কমিউনিটি নির্ভর ওপেন সোর্স প্রোজেক্ট। বাংলায় সুইফট নিয়ে রিসোর্সে তৈরিতে আপনিও <a target="_blank" rel="noopener noreferrer" href="https://github.com/ferdous-mahmud/swift-doc-bangla#module-structure">অবদান রাখুন</a>',
+        backgroundColor: '#F05138',
+        textColor: '#232526',
+        isCloseable: false,
+      },
       navbar: {
         title: 'সুইফট ডক বাংলা',
         logo: {
@@ -99,6 +106,11 @@ const config = {
                 label: 'ফেইসবুক',
                 href: 'https://www.facebook.com/ferdous1919',
               },
+            ],
+          },
+          {
+            title: 'আরও',
+            items: [
               {
                 label: 'টুইটার',
                 href: 'https://twitter.com/ferdous1919',
@@ -107,11 +119,6 @@ const config = {
                 label: 'লিংকডিন',
                 href: 'https://www.linkedin.com/in/ferdous19/',
               },
-            ],
-          },
-          {
-            title: 'আরও',
-            items: [
               {
                 label: 'গিটহাব',
                 href: 'https://github.com/ferdous-mahmud/swift-doc-bangla',
